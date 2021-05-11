@@ -27,7 +27,7 @@ class App extends React.Component {
       }
       this.setState({ messages: [message, ...this.state.messages]})
       this.socket.emit('message', body)
-      event.tañrget.value = ''
+      event.target.value = ''
     }
   }
 
